@@ -12,3 +12,12 @@
     box-sizing: border-box;
     position: relative;
 }
+
+@media screen and (max-width: 570px) {
+    .edit-form__inner {
+        width: 282px;
+        height: 322px;
+        padding: 22px;
+    }
+    
+}

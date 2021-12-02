@@ -1,5 +1,6 @@
 .edit-form__close-btn {
     background-image: url(/images/Close\ Icon.svg);
+    background-repeat: no-repeat;
     position: absolute;
     width: 32px;
     height: 32px;
@@ -11,4 +12,14 @@
 .edit-form__close-btn:hover {
     cursor: pointer;
     background-image: url(/images/close\ icon\ hover.svg);
+}
+
+
+@media screen and (max-width: 570px) {
+    .edit-form__close-btn {
+        background-size: 20px;
+        top: -37px;
+        right: -12px;
+    }
+    
 }

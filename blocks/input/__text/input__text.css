@@ -14,3 +14,10 @@
 .input__text:first-child {
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 570px) {
+    .input__text {
+        width: 238px;
+    }
+    
+}
