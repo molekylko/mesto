@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+/* body */
+@import url(../blocks/body/_overflow_hidden/body_overflow_hidden.css);
+
 /* page */
 @import url(../blocks/page/page.css);
 
@@ -27,6 +30,20 @@
 @import url(../blocks/gallery/__item-panel/gallery__item-panel.css);
 @import url(../blocks/gallery/__item-place/gallery__item-place.css);
 @import url(../blocks/gallery/__item-like/gallery__item-like.css);
+
+/* edit-form */
+@import url(../blocks/edit-form/edit-form.css);
+@import url(../blocks/edit-form/__overlay/edit-form__overlay.css);
+@import url(../blocks/edit-form/_active/edit-form_active.css);
+@import url(../blocks/edit-form/__title/edit-form__title.css);
+@import url(../blocks/edit-form/__inner/edit-form__inner.css);
+@import url(../blocks/edit-form/__submit-btn/__submit-btn.css);
+@import url(../blocks/edit-form/__close-btn/edit-form__close-btn.css);
+
+/* input */
+@import url(../blocks/input/input.css);
+@import url(../blocks/input/__text/input__text.css);
+
 
 /* footer */
 @import url(../blocks/footer/footer.css);
