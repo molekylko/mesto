@@ -1,0 +1,15 @@
+.gallery__item-like {
+    background-image: url(/images/profile__like.svg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 26px;
+    height: 19px;
+    transition: all 0.3s ease;
+}
+
+.gallery__item-like:hover {
+    cursor: pointer;
+    background-image: url(/images/profile__like_active.svg);
+}

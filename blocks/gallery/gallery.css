@@ -1,0 +1,15 @@
+.gallery {
+    grid-template-columns: repeat(auto-fill, minmax(211px, 1fr));
+    grid-gap: 17px;
+    justify-items: center;
+    display: grid;
+}
+
+@media screen and (max-width: 570px) {
+    .gallery {
+        grid-template-columns: 282px;
+        justify-content: center;
+        grid-gap: 19px;
+    }
+    
+}

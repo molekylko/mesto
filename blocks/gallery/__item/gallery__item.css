@@ -1,0 +1,6 @@
+.gallery__item {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    max-width: 282px;
+}
