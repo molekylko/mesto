@@ -18,11 +18,11 @@
                     <div class="profile__wrap">
                         <div class="profile__user">
                             <h1 class="profile__title">
-                                Жак-Ив Кусто
+                                Жак-Ив Кустов
                             </h1>                        
-                            <p class="profile__subtitle">
+                            <h2 class="profile__subtitle">
                                 Исследователь океана
-                            </p>
+                            </h2>
                         </div>
                         <button class="profile__edit-btn"></button>   
                     </div>                                      
@@ -90,14 +90,16 @@
                     <h3 class="edit-form__title">
                         Редактировать профиль
                     </h3>
-                    <div class="input">
-                        <input type="text" placeholder="Имя" class="input__text input__text_type_name">
-                        <input type="text" placeholder="Профессия" class="input__text input__text_type_profession">  
-                    </div>
-                    <button class="edit-form__submit-btn edit-form__submit-btn_action_add">
-                        Сохранить
-                    </button>
-                    <div class="edit-form__close-btn"></div>
+                    <form action="index.html" class="edit-form__form" method="post">
+                        <div class="input">
+                            <input type="text" placeholder="Имя" name="input__text_type_username" class="input__text input__text_type_username">
+                            <input type="text" placeholder="Профессия" name="input__text_type_profession" class="input__text input__text_type_profession">  
+                        </div>
+                        <button type="submit" class="edit-form__submit-btn">
+                            Сохранить
+                        </button>
+                    </form>                        
+                    <button class="edit-form__close-btn"></button>
                 </div>
             </section>
         </main>

@@ -30,6 +30,7 @@
 @import url(../blocks/gallery/__item-panel/gallery__item-panel.css);
 @import url(../blocks/gallery/__item-place/gallery__item-place.css);
 @import url(../blocks/gallery/__item-like/gallery__item-like.css);
+@import url(../blocks/gallery/__item-like/_active/gallery__item-like_active.css);
 
 /* edit-form */
 @import url(../blocks/edit-form/edit-form.css);
