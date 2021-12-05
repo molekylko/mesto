@@ -1,9 +1,9 @@
-.edit-form__inner {
+.popup__inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 430px;
-    height: 330px;
+    max-height: 330px;
     background: #fff;
     margin: 0 auto;
     padding: 36px;
@@ -14,9 +14,9 @@
 }
 
 @media screen and (max-width: 570px) {
-    .edit-form__inner {
+    .popup__inner {
         width: 282px;
-        height: 322px;
+        max-height: 322px;
         padding: 22px;
     }
     

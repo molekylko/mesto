@@ -15,18 +15,14 @@
         <main class="content">
             <section class="profile">                
                 <img src="./images/Avatar.png" alt="Место для аватарки" class="profile__avatar">
-                    <div class="profile__wrap">
-                        <div class="profile__user">
-                            <h1 class="profile__title">
-                                Жак-Ив Кусто
-                            </h1>                        
-                            <h2 class="profile__subtitle">
-                                Исследователь океана
-                            </h2>
-                        </div>
-                        <button class="profile__edit-btn"></button>   
-                    </div>                                      
-                <button class="profile__add-btn"></button>
+                <div class="profile__wrap">
+                    <div class="profile__user">
+                        <h1 class="profile__title">Жак-Ив Кусто</h1>                        
+                        <p class="profile__subtitle">Исследователь океана</p>
+                    </div>
+                    <button type="button" class="profile__edit-btn"></button>   
+                </div>                                      
+                <button type="button" class="profile__add-btn"></button>
             </section>
             <section class="gallery">
                 <div class="gallery__item">
@@ -35,7 +31,7 @@
                         <p class="gallery__item-place">
                             Карачаевск
                         </p>
-                        <button class="gallery__item-like"></button>
+                        <button type="button" class="gallery__item-like"></button>
                     </div>
                 </div>
                 <div class="gallery__item">
@@ -84,22 +80,20 @@
                     </div>
                 </div>
             </section>
-            <section class="edit-form">
-                <div class="edit-form__overlay"></div>
-                <div class="edit-form__inner">
-                    <h3 class="edit-form__title">
+            <section class="popup">
+                <div class="popup__overlay"></div>
+                <div class="popup__inner">
+                    <h3 class="popup__title">
                         Редактировать профиль
                     </h3>
-                    <form action="index.html" class="edit-form__form" method="post">
-                        <div class="input">
-                            <input type="text" placeholder="Имя" name="input__text_type_username" class="input__text input__text_type_username">
-                            <input type="text" placeholder="Профессия" name="input__text_type_profession" class="input__text input__text_type_profession">  
-                        </div>
-                        <button type="submit" class="edit-form__submit-btn">
+                    <form action="index.html" name="popup__form" class="popup__form" method="post">
+                        <input type="text" placeholder="Имя" name="popup__text_type_username" class="popup__text popup__text_type_username">
+                        <input type="text" placeholder="Профессия" name="popup__text_type_profession" class="popup__text popup__text_type_profession">  
+                        <button type="submit" class="popup__submit-btn">
                             Сохранить
                         </button>
                     </form>                        
-                    <div class="edit-form__close-btn"></div>
+                    <button type="button" class="popup__close-btn"></button>
                 </div>
             </section>
         </main>
@@ -109,6 +103,6 @@
             </p>
         </footer>
     </div>
-<script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

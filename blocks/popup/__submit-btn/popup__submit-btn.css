@@ -1,26 +1,27 @@
-.edit-form__submit-btn {
+.popup__submit-btn {
     width: 358px;
     height: 50px;
-    border-radius: 2px;
+    border: none;
     cursor: pointer;
     background: #000000;
     color: #fff;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto 0;
     padding: 13px 0;
     transition: all 0.3s ease;
 }
 
-.edit-form__submit-btn:hover {
+.popup__submit-btn:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
 @media screen and (max-width: 570px) {
-    .edit-form__submit-btn {
+    .popup__submit-btn {
         width: 238px;
+        font-size: 14px;
     }
     
 }
