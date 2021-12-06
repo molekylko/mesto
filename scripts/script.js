@@ -28,10 +28,11 @@ closeBtn.addEventListener('click', closeEditForm);
 closeOverlay.addEventListener('click', closeEditForm);
 
 
-/* Изменение инфы в профиле */
-formElement.onsubmit = function(evt)  {
-    evt.preventDefault();
+function formSubmitHandler (evt) {
+    evt.preventDefault(); 
     username.textContent = usernameInput.value;
     profession.textContent = professionInput.value;
     closeEditForm();
-};
+}
+
+formElement.addEventListener('submit', formSubmitHandler);

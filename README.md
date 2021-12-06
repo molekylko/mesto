@@ -10,7 +10,7 @@
 - Структурирован по БЭМ-Nested;
 - Синхронизирован с Git.
 
-Github Pages - https://molekylko.github.io//mesto
+Github Pages - https://molekylko.github.io/mesto
 
 Спасибо за внимание,
 **© 2021. Никита Распутин**
